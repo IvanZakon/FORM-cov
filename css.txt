@@ -1,0 +1,183 @@
+.custom-block-form {
+    background: url(/local/templates/simplelandshop_themes_blue/img/covid-form-back.png) no-repeat center center; 
+    background-size: cover !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #053C5B;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+
+.custom-block-form .line-1 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #053C5B;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    font-family: Roboto;
+    margin-bottom: 10px;
+}
+
+.custom-block-form .line-2 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #656768;
+    font-family: Roboto;
+    margin-bottom: 15px;
+}
+
+.l-content {
+    user-select: none;
+}
+
+.custom-block-form .line-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+#name {
+    /*background-image: url(/local/templates/main/assets/img/cvform-name.png);*/
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+input {
+    overflow: visible;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+
+#phone {
+    background-image: url(/local/templates/main/assets/img/ncform-phone.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.custom-block-form .line-buttons input {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #827979;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    width: 25%;
+    border: 1px solid #3333;
+    border-radius: 5px;
+}
+.pussy {
+	width: 400px;
+}
+
+
+.custom-block-form .new-submit {
+    color: #fff;
+    background-color: #ff8031;
+    border-color: #ff7018;
+    box-shadow: 0 3px 3px 0 #ff8031;
+    width: 25%;
+    height: 100%;
+    /*padding-top: 9px;*/
+    /* padding-bottom: 7px; */
+    text-decoration: none;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -3px;
+}
+
+.custom-block-form .line-4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #656768;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.custom-block-form .line-buttons input {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #827979;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    width: 25%;
+    border: 1px solid #3333;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px)
+::-webkit-resizer {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMzk0IDM2NTYgMTggMTgiPjxkZWZzPjxzdHlsZT4uYXtmaWxsOiNmOGY4Zjg7fTwvc3R5bGU+PC9kZWZzPjxwYXRoIGNsYXNzPSJhIiBkPSJNMTkuNTEsMy4wOCwzLjA4LDE5LjUxYTIuMDczLDIuMDczLDAsMCwwLC41MS45LDIuMDczLDIuMDczLDAsMCwwLC45LjUxTDIwLjkzLDQuNDlBMiwyLDAsMCwwLDE5LjUxLDMuMDhaTTExLjg4LDMsMywxMS44OHYyLjgzTDE0LjcxLDNaTTUsM0EyLjAwNiwyLjAwNiwwLDAsMCwzLDVWN0w3LDNaTTE5LDIxYTIuMDE1LDIuMDE1LDAsMCwwLDItMlYxN2wtNCw0Wk05LjI5LDIxaDIuODNMMjEsMTIuMTJWOS4yOVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMzk3IDM2NTMpIi8+PC9zdmc+);
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    }
+
+    @media (min-width: 768px)
+::-webkit-scrollbar {
+    height: 27px;
+    width: 27px;
+}
+
+
+@media (min-width: 768px)
+::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+}
+
+@media (min-width: 768px)
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #c7c7c7;
+    }
+
+
+    @media (min-width: 768px)
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    }
