@@ -1,17 +1,17 @@
 <div class="custom-block-form form-punk">
 	<div class="line-1">
-		Онлайн заявка на консультацию
+		РћРЅР»Р°Р№РЅ Р·Р°СЏРІРєР° РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ
 	</div>
 	<div class="line-buttons">
-		<input id="name" type="text" placeholder="Ваше имя*">
-		<input id="phone" type="text" placeholder="Ваш телефон*">
-        <input id="email" type="text" placeholder="Ваш email*">
+		<input id="name" type="text" placeholder="Р’Р°С€Рµ РёРјСЏ*">
+		<input id="phone" type="text" placeholder="Р’Р°С€ С‚РµР»РµС„РѕРЅ*">
+        <input id="email" type="text" placeholder="Р’Р°С€ email*">
 	</div>
 	<div class="line-buttons pussy" style="padding-top: 21px; padding-bottom: 20px">
-<input id="pole" type="text" placeholder="Сообщение*">
-<a href="#" class="punk-submit new-submit">Отправить</a>
+<input id="pole" type="text" placeholder="РЎРѕРѕР±С‰РµРЅРёРµ*">
+<a href="#" class="punk-submit new-submit">РћС‚РїСЂР°РІРёС‚СЊ</a>
 	</div>
-		<div class="line-1">(Нажимая на кнопку “Отправить”, Вы даёте своё согласие на обработку персональных данных)</div>
+		<div class="line-1">(РќР°Р¶РёРјР°СЏ РЅР° РєРЅРѕРїРєСѓ вЂњРћС‚РїСЂР°РІРёС‚СЊвЂќ, Р’С‹ РґР°С‘С‚Рµ СЃРІРѕС‘ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…)</div>
 	</div>
 <script>
 $(document).ready(function(){
@@ -82,7 +82,7 @@ if (flag1==1 || flag2 ==1 || flag3==1 || flag4==1){
 	});
 	
 	$('.form-punk').addClass('thanks');
-                        $('.form-punk').html("Спасибо! Ваша заявка отправлена. Мы свяжемся с Вами в ближайшее время!");
+                        $('.form-punk').html("РЎРїР°СЃРёР±Рѕ! Р’Р°С€Р° Р·Р°СЏРІРєР° РѕС‚РїСЂР°РІР»РµРЅР°. РњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ Р’Р°РјРё РІ Р±Р»РёР¶Р°Р№С€РµРµ РІСЂРµРјСЏ!");
 }
 	return false;
 });
